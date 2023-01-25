@@ -35,6 +35,10 @@ export default class Resume extends HTMLElement {
         section {
             padding: 5.5rem 1rem 0 1rem;
         }
+        
+        section p {
+            padding: 0.5rem 0;
+        }
     </style>
     
     <section>
