@@ -5,48 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Title</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <script src="assets/scripts/app.js" defer></script>
+    <script src="assets/scripts/app.js" defer type="module"></script>
 </head>
 <body>
-    <header
-        style="border: 1px solid red"
-    >
-        <h1>Wes Stephenson</h1>
-        <div>
-            <a href="#about-me">About Me</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </header>
-    <div
-        id="body"
-        style="border: 1px solid blue"
-    >
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aliquid aut delectus deleniti dignissimos doloribus eius eveniet ipsum iste laboriosam, libero magnam maxime modi quae quasi saepe suscipit veniam veritatis.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aliquid aut delectus deleniti dignissimos doloribus eius eveniet ipsum iste laboriosam, libero magnam maxime modi quae quasi saepe suscipit veniam veritatis.</p>
-        </section>
-        <section id="resume">
-            <h2>Resume</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laudantium neque porro rem vitae! Ad amet at, blanditiis delectus deserunt doloribus ea eligendi, hic molestiae mollitia nam quae sapiente similique!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laudantium neque porro rem vitae! Ad amet at, blanditiis delectus deserunt doloribus ea eligendi, hic molestiae mollitia nam quae sapiente similique!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laudantium neque porro rem vitae! Ad amet at, blanditiis delectus deserunt doloribus ea eligendi, hic molestiae mollitia nam quae sapiente similique!</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam aperiam corporis dolore ducimus earum expedita facilis in, incidunt inventore ipsum magnam modi natus nemo perferendis quia quidem quod temporibus.</p>
-        </section>
+    <ws-header></ws-header>
+    <div id="body">
+        <ws-about-me id="about-me"></ws-about-me>
+        <ws-resume id="resume"></ws-resume>
+        <ws-contact id="contact"></ws-contact>
     </div>
-    <footer
-        style="border: 1px solid forestgreen"
-    >
-        <h3>Wes Stephenson</h3>
-        <p>Email Address</p>
-        <div>
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
-        </div>
-    </footer>
+    <ws-footer></ws-footer>
 </body>
 </html>
