@@ -11,6 +11,8 @@ export default class AboutMe extends HTMLElement {
         
         * {
             margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
         }
         
         img, picture, video, canvas, svg {
@@ -24,6 +26,10 @@ export default class AboutMe extends HTMLElement {
         
         p, h1, h2, h3, h4, h5, h6 {
             overflow-wrap: break-word;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
         }
         
         section {

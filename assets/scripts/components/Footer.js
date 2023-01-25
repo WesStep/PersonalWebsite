@@ -11,6 +11,8 @@ export default class Footer extends HTMLElement {
         
         * {
             margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
         }
         
         img, picture, video, canvas, svg {
@@ -26,20 +28,53 @@ export default class Footer extends HTMLElement {
             overflow-wrap: break-word;
         }
         
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+        
         footer {
-            box-shadow: 0px 0px 2px black;
-            margin-top: 2rem;
+            box-shadow: 0px 0px 5px black;
+            background: rgb(225,217,209);
             padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        ul {
+            padding: 0.25rem 0;
+            display: flex;
+        }
+        
+        li {
+            padding: 0 0.5rem;
+            list-style-type: none;
+        }
+        
+        li a {
+            text-decoration: none;
+        }
+        
+        img {
+            max-width: 24px;
         }
     </style>
     
     <footer>
         <h3>Wes Stephenson</h3>
         <p>wesstep1315@gmail.com</p>
-        <div>
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
-        </div>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/wes-stephenson/">
+                    <img src="./assets/linkedin.svg"></img>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/WesStep">
+                    <img src="./assets/github-mark.svg"></img>
+                </a>
+            </li>
+        </ul>
     </footer>
     `;
 

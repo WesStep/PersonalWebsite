@@ -11,6 +11,8 @@ export default class Contact extends HTMLElement {
         
         * {
             margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
         }
         
         img, picture, video, canvas, svg {
@@ -26,8 +28,12 @@ export default class Contact extends HTMLElement {
             overflow-wrap: break-word;
         }
         
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+        
         section {
-            padding: 4rem 1rem 0 1rem;
+            padding: 4rem 1rem 2rem 1rem;
         }
     </style>
     
