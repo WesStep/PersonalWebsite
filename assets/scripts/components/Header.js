@@ -70,9 +70,9 @@ export default class Header extends HTMLElement {
     <header>
         <h1 id='title'>Wes Stephenson</h1>
         <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a id='about-me-link' href="#about-me">About Me</a></li>
+            <li><a id='resume-link' href="#resume">Resume</a></li>
+            <li><a id='contact-link' href="#contact">Contact</a></li>
         </ul>
     </header>
     `;
@@ -83,11 +83,26 @@ export default class Header extends HTMLElement {
         this.shadowRoot.innerHTML = this.#template;
         window.addEventListener('scroll', this.#onScroll.bind(this));
 
+        const aboutMeLink = this.shadowRoot.getElementById('about-me-link');
+        const resumeLink = this.shadowRoot.getElementById('resume-link');
+        const contactLink = this.shadowRoot.getElementById('contact-link');
+
+        aboutMeLink.addEventListener('click', this.#scrollIntoView.bind(this));
+        resumeLink.addEventListener('click', this.#scrollIntoView.bind(this));
+        contactLink.addEventListener('click', this.#scrollIntoView.bind(this));
     }
 
     #onScroll() {
         this.#titleElement = this.shadowRoot.getElementById("title");
         this.#titleElement.style.fontSize = (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
             ? "1rem" : "2.5rem";
+    }
+
+    #scrollIntoView(event) {
+        event.preventDefault();
+        const elementId = event.target.getAttribute('href');
+        document.querySelector(elementId).scrollIntoView({
+            behavior: 'smooth'
+        });
     }
 }
