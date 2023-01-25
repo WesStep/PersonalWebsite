@@ -76,18 +76,18 @@ export default class Header extends HTMLElement {
         </ul>
     </header>
     `;
+    #titleElement;
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.innerHTML = this.#template;
-        window.onscroll = () => this.#scrollFunction();
+        window.addEventListener('scroll', this.#onScroll.bind(this));
+
     }
 
-    #scrollFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            this.shadowRoot.getElementById("title").style.fontSize = "1rem";
-        } else {
-            this.shadowRoot.getElementById("title").style.fontSize = "2.5rem";
-        }
+    #onScroll() {
+        this.#titleElement = this.shadowRoot.getElementById("title");
+        this.#titleElement.style.fontSize = (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+            ? "1rem" : "2.5rem";
     }
 }
