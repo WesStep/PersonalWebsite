@@ -34,6 +34,8 @@ export default class Contact extends HTMLElement {
         
         section {
             padding: 4rem 1rem 2rem 1rem;
+            max-width: 30rem;
+            margin: 0 auto;
         }
         
         section p {

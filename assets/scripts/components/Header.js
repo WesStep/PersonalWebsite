@@ -42,6 +42,7 @@ export default class Header extends HTMLElement {
             display: flex;
             flex-direction: column;
             align-items: center;
+            z-index: 10;
         }
         
         h1 {
