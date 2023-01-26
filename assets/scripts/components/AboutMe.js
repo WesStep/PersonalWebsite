@@ -43,8 +43,8 @@ export default class AboutMe extends HTMLElement {
     
     <section>
         <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aliquid aut delectus deleniti dignissimos doloribus eius eveniet ipsum iste laboriosam, libero magnam maxime modi quae quasi saepe suscipit veniam veritatis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aliquid aut delectus deleniti dignissimos doloribus eius eveniet ipsum iste laboriosam, libero magnam maxime modi quae quasi saepe suscipit veniam veritatis.</p>
+        <p>I am a web developer with experience in front-end and back-end languages and frameworks, namely Vue.js and Laravel (JavaScript and PHP, respectively). I enjoy designing and building web apps that simplify workflows, solve problems, automate mundane tasks, and bring real value to people. The thought of saving time and energy through programming excites me.</p>
+        <p>When you don't find me at the computer programming or learning new programming languages, techniques, or methodologies, you'll probably find me either spending time with my family, crocheting, knitting, playing Rocket League or Factorio, or perfecting my chocolate chip cookie recipe.</p>
     </section>
     `;
 
