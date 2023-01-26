@@ -27,6 +27,10 @@ export default class Header extends HTMLElement {
         p, h1, h2, h3, h4, h5, h6 {
             overflow-wrap: break-word;
         }
+        
+        /****************
+            END Css Reset
+        *****************/
             
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Playfair Display', serif;

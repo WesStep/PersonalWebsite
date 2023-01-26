@@ -28,6 +28,41 @@ export default class Resume extends HTMLElement {
             overflow-wrap: break-word;
         }
         
+        /****************
+            END Css Reset
+        *****************/
+        
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        .date-range {
+            font-style: italic;
+            font-size: 0.85rem;
+        }
+        
+        #download-resume-btn {
+            background-color: navy;
+            border-radius: 0.25rem;
+            color: white;
+            display: inline-block;
+            margin: 0.5rem 0 0 0;
+            padding: 0.25rem 0.5rem;
+            transition: 0.2s;
+        }
+        
+        #download-resume-btn:hover {
+            background-color: #555;
+            transition: 0.2s;
+        }
+        
+        #education-section p {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+        }
+        
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Playfair Display', serif;
         }
