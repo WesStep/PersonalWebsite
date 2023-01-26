@@ -62,7 +62,8 @@ export default class Footer extends HTMLElement {
     
     <footer>
         <h3>Wes Stephenson</h3>
-        <p>wesstep1315@gmail.com</p>
+        <p>Cell: 435-553-5738</p>
+        <p>Email: wesstep1315@gmail.com</p>
         <ul>
             <li>
                 <a href="https://www.linkedin.com/in/wes-stephenson/">
