@@ -2,6 +2,10 @@ export default class GoToTopButton extends HTMLElement {
     #btn;
     #template = `
         <style>
+            * {
+                font-family: 'Open Sans', sans-serif;
+            }
+            
             #scrollToTopBtn {
               display: none;
               position: fixed;
