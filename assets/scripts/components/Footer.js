@@ -66,12 +66,12 @@ export default class Footer extends HTMLElement {
         <ul>
             <li>
                 <a href="https://www.linkedin.com/in/wes-stephenson/">
-                    <img src="./assets/linkedin.svg"></img>
+                    <img src="./assets/images/linkedin.svg"></img>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/WesStep">
-                    <img src="./assets/github-mark.svg"></img>
+                    <img src="./assets/images/github-mark.svg"></img>
                 </a>
             </li>
         </ul>
