@@ -60,23 +60,36 @@ export default class Footer extends HTMLElement {
         }
         
         img {
-            max-width: 24px;
+            width: 32px;
         }
     </style>
     
     <footer>
-        <h3>Wes Stephenson</h3>
-        <p>Cell: 435-553-5738</p>
-        <p>Email: wesstep1315@gmail.com</p>
+        <p>&copy; ${new Date().getFullYear()} by Wes Stephenson</p>
         <ul>
             <li>
+                <a href="tel:4355535738">
+                    <img src="./assets/images/call.png" alt="Picture of Telephone"></img>
+                </a>
+            </li>
+            <li>
+                <a href="sms:4355535738">
+                    <img src="./assets/images/text.png" alt="Picture of Text Message"></img>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:wesstep1315@gmail.com">
+                    <img src="./assets/images/email.png" alt="Picture of Email"></img>
+                </a>
+            </li>
+            <li>
                 <a href="https://www.linkedin.com/in/wes-stephenson/">
-                    <img src="./assets/images/linkedin.svg"></img>
+                    <img src="./assets/images/linkedin.svg" alt="LinkedIn Logo"></img>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/WesStep">
-                    <img src="./assets/images/github-mark.svg"></img>
+                    <img src="./assets/images/github-mark.svg" alt="GitHub Logo"></img>
                 </a>
             </li>
         </ul>
@@ -85,6 +98,7 @@ export default class Footer extends HTMLElement {
 
     constructor() {
         super();
+        console.log(this.year);
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.innerHTML = this.#template;
     }

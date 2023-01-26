@@ -32,6 +32,11 @@ export default class Contact extends HTMLElement {
             END Css Reset
         *****************/
         
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Playfair Display', serif;
         }
@@ -49,7 +54,11 @@ export default class Contact extends HTMLElement {
     
     <section>
         <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam aperiam corporis dolore ducimus earum expedita facilis in, incidunt inventore ipsum magnam modi natus nemo perferendis quia quidem quod temporibus.</p>
+        <p>Feel free to reach out! Please no spam.</p>
+        <p>Call or Text: <a href="tel:14355535738">435-553-5738</a></p>
+        <p>Email: <a href="mailto:wesstep1315@gmail.com">wesstep1315@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/wes-stephenson/">LinkedIn Profile</a></p>
+        <p><a href="https://github.com/WesStep">GitHub Profile</a></p>
     </section>
     `;
     constructor() {

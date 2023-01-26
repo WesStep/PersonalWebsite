@@ -120,7 +120,7 @@ export default class Resume extends HTMLElement {
             </div>
             <div class="work-experience-entry">
                 <h4>
-                    Web Developer, Fox Pest Control<hr />
+                    Software Developer 2, Fox Pest Control<hr />
                     <span class="date-range">Nov 2020 - March 2021 (5 mos)</span>
                 </h4>
                 <ul>
@@ -135,9 +135,9 @@ export default class Resume extends HTMLElement {
                 </h4>
                 <ul>
                     <li>Communicated effectively with customers consisting of government agencies and offices.</li>
-                    <li>Configured custom scripts, forms, reports, and documents for customers per customer requests.</li>
+                    <li>Configured custom scripts, forms, reports, and documents per customer requests.</li>
                     <li>Maintained open and positive communication with manager and coworkers.</li>
-                    <li>Accelerated growth of meaningful documentation by contributing to, expanding, and improving their internal wiki.</li>
+                    <li>Accelerated growth of meaningful documentation by contributing to, expanding, and improving Journal Tech's internal wiki.</li>
                 </ul>
             </div>
             <div class="work-experience-entry">
@@ -159,7 +159,8 @@ export default class Resume extends HTMLElement {
                 <ul>
                     <li>Communicated effectively with clients over phone and live chat to provide technical support, receiving letters of happy clients about once a week.</li>
                     <li>Solved 200+ web hosting-related questions from clients and coworkers.</li>
-                    <li>Took initiative on documenting steps taken, who was involved, results of efforts, and future recommendations to senior tech support representatives and managers, generating several pages of documentation for proper practices and principles.</li>
+                    <li>Took initiative on documenting steps taken, who was involved, results of efforts, and future recommendations to senior tech support representatives and managers.</li>
+                    <li>Wrote several pages of documentation on best practices and principles.</li>
                     <li>Maintained a minimum of 5 meaningful contacts (phone call, live chat, or support ticket response) per hour.</li>
                 </ul>
             </div>
@@ -181,7 +182,7 @@ export default class Resume extends HTMLElement {
                 <li>Agile development</li>
                 <li>CSS</li>
                 <li>Docker</li>
-                <li>Effective, concise, positive communication</li>
+                <li>Effective, concise, and positive communication</li>
                 <li>FTP</li>
                 <li>HTML</li>
                 <li>JavaScript</li>
@@ -193,14 +194,14 @@ export default class Resume extends HTMLElement {
                 <li>PHP</li>
                 <li>Proactive in finding meaningful solutions to problems</li>
                 <li>SSH</li>
-                <li>Troubleshoot many types of web hosting-related issues dealing with broken websites and email accounts</li>
+                <li>Troubleshoot various issues dealing with broken websites and email accounts</li>
             </ul>
         </div>
         <div id="portfolio-section">
             <h3>Portfolio</h3>
             <ul>
-                <li><a href="https://tower.wesstep.com" target="_blank">tower.wesstep.com</a> – Tower of Hanoi game built in JavaScript. Mainly desktop-based.</li>
-                <li><a href="https://slider.wesstep.com" target="_blank">slider.wesstep.com</a> – 15-tile slider game designed after the old-fashioned hand-held game. This game is mobile-friendly.</li>
+                <li><a href="https://tower.wesstep.com">tower.wesstep.com</a> – Tower of Hanoi game built in JavaScript. Mainly desktop-based.</li>
+                <li><a href="https://slider.wesstep.com">slider.wesstep.com</a> – 15-tile slider game designed after the old-fashioned hand-held game. This game is mobile-friendly.</li>
             </ul>
         </div>
         <div id="education-section">
