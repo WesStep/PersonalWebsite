@@ -38,7 +38,7 @@ export default class AboutMe extends HTMLElement {
         
         section {
             padding: 8rem 1rem 0 1rem;
-            max-width: 30rem;
+            max-width: 40rem;
             margin: 0 auto;
         }
         
