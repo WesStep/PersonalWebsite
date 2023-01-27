@@ -200,6 +200,7 @@ export default class Resume extends HTMLElement {
         <div id="portfolio-section">
             <h3>Portfolio</h3>
             <ul>
+                <li><a href="https://resume.wesstep.com">resume.wesstep.com</a> – My resume website. (The one you're reading right now!)</li>
                 <li><a href="https://tower.wesstep.com">tower.wesstep.com</a> – Tower of Hanoi game built in JavaScript. Mainly desktop-based.</li>
                 <li><a href="https://slider.wesstep.com">slider.wesstep.com</a> – 15-tile slider game designed after the old-fashioned hand-held game. This game is mobile-friendly.</li>
             </ul>
