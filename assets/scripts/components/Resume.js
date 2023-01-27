@@ -179,21 +179,21 @@ export default class Resume extends HTMLElement {
         <div id="relevant-skills-and-tech-section">
             <h3>Relevant Skills and Technologies</h3>
             <ul>
-                <li>Agile development</li>
                 <li>CSS</li>
                 <li>Docker</li>
-                <li>Effective, concise, and positive communication</li>
                 <li>FTP</li>
                 <li>HTML</li>
                 <li>JavaScript</li>
-                <li>Jira</li>
                 <li>Laravel</li>
-                <li>Lead others toward established goals</li>
                 <li>Linux CLI</li>
                 <li>MVC</li>
                 <li>PHP</li>
-                <li>Proactive in finding meaningful solutions to problems</li>
                 <li>SSH</li>
+                <li>Agile development</li>
+                <li>Jira</li>
+                <li>Effective, concise, and positive communication</li>
+                <li>Lead others toward established goals</li>
+                <li>Proactive in finding meaningful solutions to problems</li>
                 <li>Troubleshoot various issues dealing with broken websites and email accounts</li>
             </ul>
         </div>
