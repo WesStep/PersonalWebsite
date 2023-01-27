@@ -47,15 +47,14 @@ export default class AboutMe extends HTMLElement {
         }
         
         img {
-            max-width: 300px;
-            max-height: 300px;
+            max-width: 240px;
             margin: 0 auto;
             border-radius: 50%;
         }
     </style>
     
     <section>
-        <img src="./assets/images/wes_stephenson_300px.jpg" alt="Professional Picture of Wes Stephenson"></img>
+        <img src="./assets/images/wes_stephenson_480px.jpg" alt="Professional Picture of Wes Stephenson"></img>
         <div>
             <h2>About Me</h2>
             <p>I am a web developer with experience in front-end and back-end languages and frameworks, namely Vue.js and Laravel (JavaScript and PHP, respectively). I enjoy designing and building web apps that simplify workflows, solve problems, automate mundane tasks, and bring real value to people. The thought of saving time and energy through programming excites me.</p>
