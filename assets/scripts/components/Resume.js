@@ -164,17 +164,6 @@ export default class Resume extends HTMLElement {
                     <li>Maintained a minimum of 5 meaningful contacts (phone call, live chat, or support ticket response) per hour.</li>
                 </ul>
             </div>
-            <div class="work-experience-entry">
-                <h4>
-                    Full Time Volunteer<hr />
-                    <span class="date-range">Jun 2013 - Jun 2015 (2 yrs)</span>
-                </h4>
-                <ul>
-                    <li>Led and assisted groups of 8-10 full-time volunteers.</li>
-                    <li>Directed weekly and monthly meetings of 15-20 full-time volunteers.</li>
-
-                </ul>
-            </div>
         </div>
         <div id="relevant-skills-and-tech-section">
             <h3>Relevant Skills and Technologies</h3>
@@ -191,16 +180,17 @@ export default class Resume extends HTMLElement {
                 <li>SSH</li>
                 <li>Agile development</li>
                 <li>Jira</li>
+                <li>Troubleshooting</li>
+                <li>Writing effective documentation</li>
                 <li>Effective, concise, and positive communication</li>
                 <li>Lead others toward established goals</li>
                 <li>Proactive in finding meaningful solutions to problems</li>
-                <li>Troubleshoot various issues dealing with broken websites and email accounts</li>
             </ul>
         </div>
         <div id="portfolio-section">
             <h3>Portfolio</h3>
             <ul>
-                <li><a href="https://resume.wesstep.com">resume.wesstep.com</a> – My resume website. (The one you're reading right now!)</li>
+                <li>wesstep.com – My personal resume website. (The one you're reading right now!)</li>
                 <li><a href="https://tower.wesstep.com">tower.wesstep.com</a> – Tower of Hanoi game built in JavaScript. Mainly desktop-based.</li>
                 <li><a href="https://slider.wesstep.com">slider.wesstep.com</a> – 15-tile slider game designed after the old-fashioned hand-held game. This game is mobile-friendly.</li>
             </ul>
@@ -208,7 +198,7 @@ export default class Resume extends HTMLElement {
         <div id="education-section">
             <h3>Education</h3>
             <p><span>B.S., Management Information Systems</span><span>August 2018</span></p>
-            <p><span>Utah State University, Logan, UT</span><span>GPA 3.39</span></p>
+            <p><span>Utah State University, Logan, UT</p>
         </div>
         <a id="download-resume-btn" href="./assets/files/Resume.pdf" download="Wes_Stephenson_Resume.pdf">Download A Resume Copy</a>
     </section>
