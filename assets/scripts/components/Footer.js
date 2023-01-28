@@ -98,7 +98,6 @@ export default class Footer extends HTMLElement {
 
     constructor() {
         super();
-        console.log(this.year);
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.innerHTML = this.#template;
     }
