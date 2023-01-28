@@ -68,21 +68,6 @@ export default class Footer extends HTMLElement {
         <p>&copy; ${new Date().getFullYear()} by Wes Stephenson</p>
         <ul>
             <li>
-                <a href="tel:4355535738">
-                    <img src="./assets/images/call.png" alt="Picture of Telephone"></img>
-                </a>
-            </li>
-            <li>
-                <a href="sms:4355535738">
-                    <img src="./assets/images/text.png" alt="Picture of Text Message"></img>
-                </a>
-            </li>
-            <li>
-                <a href="mailto:wesstep1315@gmail.com">
-                    <img src="./assets/images/email.png" alt="Picture of Email"></img>
-                </a>
-            </li>
-            <li>
                 <a href="https://www.linkedin.com/in/wes-stephenson/">
                     <img src="./assets/images/linkedin.svg" alt="LinkedIn Logo"></img>
                 </a>
