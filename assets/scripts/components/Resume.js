@@ -109,6 +109,17 @@ export default class Resume extends HTMLElement {
             <h3>Web Developer Experience</h3>
             <div class="work-experience-entry">
                 <h4>
+                    Software Developer I, iWorQ Systems Inc.<hr />
+                    <span class="date-range">March 2023 - Present (8 mos)</span>
+                </h4>
+                <ul>
+                    <li>Quickly learned iWorQ's codebase and began contributing to development.</li>
+                    <li>Refactored legacy code to make it more readable and maintainable.</li>
+                    <li>Created several new features for iWorQ's community management software and citizen-facing portal.</li>
+                </ul>
+            </div>
+            <div class="work-experience-entry">
+                <h4>
                     Full Stack Web Developer, Malouf Companies<hr />
                     <span class="date-range">March 2021 - Jan 2023 (1 yr, 11 mos)</span>
                 </h4>
@@ -168,31 +179,41 @@ export default class Resume extends HTMLElement {
         <div id="relevant-skills-and-tech-section">
             <h3>Relevant Skills and Technologies</h3>
             <ul>
-                <li>CSS</li>
-                <li>Docker</li>
-                <li>FTP</li>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>Laravel</li>
-                <li>Linux CLI</li>
-                <li>MVC</li>
-                <li>PHP</li>
-                <li>SSH</li>
-                <li>Agile development</li>
-                <li>Jira</li>
-                <li>Troubleshooting</li>
-                <li>Writing effective documentation</li>
-                <li>Effective, concise, and positive communication</li>
-                <li>Lead others toward established goals</li>
-                <li>Proactive in finding meaningful solutions to problems</li>
+                <li style="font-weight: bold;">Languages</li>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                </ul>
+                <li style="font-weight: bold;">Frameworks</li>
+                <ul>
+                    <li>Laravel (PHP)</li>
+                    <li>VueJS (JavaScript)</li>
+                </ul>
+                <li style="font-weight: bold;">Technologies & Software</li>
+                <ul>
+                    <li>Docker</li>
+                    <li>Linux CLI</li>
+                    <li>Jira</li>
+                </ul>
+                <li style="font-weight: bold;">Techniques & Misc. Skills</li>
+                <ul>
+                    <li>Agile development</li>
+                    <li>Troubleshooting</li>
+                    <li>Writing effective documentation</li>
+                    <li>Effective, concise, and positive communication</li>
+                    <li>Lead others toward established goals</li>
+                    <li>Proactive in finding meaningful solutions to problems</li>
+                </ul>
             </ul>
         </div>
         <div id="portfolio-section">
             <h3>Portfolio</h3>
             <ul>
-                <li>wesstep.com – My personal resume website. (The one you're reading right now!)</li>
-                <li><a href="https://tower.wesstep.com">tower.wesstep.com</a> – Tower of Hanoi game built in JavaScript. Mainly desktop-based.</li>
-                <li><a href="https://slider.wesstep.com">slider.wesstep.com</a> – 15-tile slider game designed after the old-fashioned hand-held game. This game is mobile-friendly.</li>
+                <li>wesstep.com - My personal resume website. (The one you're reading right now!)</li>
+                <li><a href="https://tower.wesstep.com">tower.wesstep.com</a> - Tower of Hanoi game built in JavaScript. Mainly desktop-based.</li>
+                <li><a href="https://slider.wesstep.com">slider.wesstep.com</a> - 15-tile slider game designed after the old-fashioned hand-held game. This game is mobile-friendly.</li>
             </ul>
         </div>
         <div id="education-section">

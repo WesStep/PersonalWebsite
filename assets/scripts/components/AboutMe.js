@@ -57,7 +57,7 @@ export default class AboutMe extends HTMLElement {
         <img src="./assets/images/wes_stephenson_480px.jpg" alt="Professional Picture of Wes Stephenson"></img>
         <div>
             <h2>About Me</h2>
-            <p>I am a web developer with experience in front-end and back-end languages and frameworks, namely Vue.js and Laravel (JavaScript and PHP, respectively). I enjoy designing and building web apps that simplify workflows, solve problems, automate mundane tasks, and bring real value to people. The thought of saving time and energy through programming excites me.</p>
+            <p>I am a web developer with experience in front-end and back-end languages and frameworks, namely JavaScript and PHP (Vue.js and Laravel, respectively). I enjoy designing and building web apps that simplify workflows, solve problems, automate mundane tasks, and bring real value to people. The thought of saving time and energy through programming excites me.</p>
             <p>When you don't find me at the computer programming or learning new programming languages, techniques, or methodologies, you'll probably find me either spending time with my family, crocheting, knitting, playing Rocket League or Factorio, or perfecting my chocolate chip cookie recipe.</p>
         </div>
     </section>
