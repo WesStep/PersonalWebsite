@@ -113,7 +113,7 @@ export default class Resume extends HTMLElement {
                     <span class="date-range">March 2023 - Present (8 mos)</span>
                 </h4>
                 <ul>
-                    <li>Quickly learned iWorQ's codebase and began contributing to development.</li>
+                    <li>Quickly learned iWorQ's codebase and began contributing to its development.</li>
                     <li>Refactored legacy code to make it more readable and maintainable.</li>
                     <li>Created several new features for iWorQ's community management software and citizen-facing portal.</li>
                 </ul>
