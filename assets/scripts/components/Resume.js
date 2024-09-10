@@ -110,7 +110,7 @@ export default class Resume extends HTMLElement {
             <div class="work-experience-entry">
                 <h4>
                     Software Developer I, iWorQ Systems Inc.<hr />
-                    <span class="date-range">March 2023 - Present (18 mos)</span>
+                    <span class="date-range">March 2023 - Present (1 yr, 6 mos)</span>
                 </h4>
                 <ul>
                     <li>Quickly learned iWorQ's codebase and began contributing to its development.</li>
